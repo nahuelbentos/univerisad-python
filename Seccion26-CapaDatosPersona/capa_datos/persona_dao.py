@@ -88,9 +88,9 @@ if __name__ == '__main__':
     #    logger.debug(persona.get_id_persona())
 
     # Insertamos un nuevo registro
-    #persona = Persona(nombre='Pedro', apellido='Najera', email='pnajera@mail.com')
-    #personas_insertadas = PersonaDao.insertar(persona)
-    #logger.debug(f'Personas insertados: {personas_insertadas}')
+    persona = Persona(nombre='Pedro', apellido='Najera', email='pnajera@mail.com')
+    personas_insertadas = PersonaDao.insertar(persona)
+    logger.debug(f'Personas insertados: {personas_insertadas}')
 
     # Actualizar un registro existente
     #persona = Persona(1,'Juan','Perez', 'jperez@mail.com')
@@ -98,6 +98,6 @@ if __name__ == '__main__':
     #logger.debug(f'Personas actualizadas: {personas_actualizadas}')
 
     # eliminar un registro existente
-    persona = Persona(id_persona=7)
-    personas_eliminadas = PersonaDao.eliminar(persona)
-    logger.debug(f'Personas eliminadas: {personas_eliminadas}')
+    # persona = Persona(id_persona=7)
+    # personas_eliminadas = PersonaDao.eliminar(persona)
+    # logger.debug(f'Personas eliminadas: {personas_eliminadas}')
